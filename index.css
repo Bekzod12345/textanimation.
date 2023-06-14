@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+     
+    gap: 30px;
+    
+}
+body{
+  background-color: black;
+  opacity: 2;
+  max-width: 500%;
+  max-height: max-content;
+  margin: auto;
+  margin-top: 300px;
+}
+
+nav{
+    font-size: 300px;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    animation-name: salom;
+    animation-duration: 12s;
+    animation-delay: 10s ;
+    animation-iteration-count: infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+/* .b:nth-child(1)
+.e:nth-child(2)
+.k:nth-child(3)
+.z:nth-child(4)
+.o:nth-child(5)
+.d:nth-child(6) */
+
+ .container nav:nth-child(1){
+    animation-delay: 0s;
+    color: blue
+              red blueviolet,cornflowerblue,blanchedalmond;
+             
+ }
+ .container nav:nth-child(2){
+    animation-delay: 0.3s;
+    color: rgb(226, 119, 43);
+ }
+   
+
+ .container nav:nth-child(3)
+ {
+    animation-delay: 0.4s;
+ }
+ .container nav:nth-child(4)
+ {
+    animation-delay: 0.75s;
+ }
+ .container nav:nth-child(5){
+    animation-delay: 1s;
+ }
+ .container nav:nth-child(6)
+ {
+    animation-delay: 1.25s;
+ }
+
+
+@keyframes salom {
+
+    0%{
+        top: 10px;
+        rotate: 15deg;
+        color: brown;
+  box-shadow: 5px 10px 20px rgb(22, 66, 213);
+    }
+
+    50%{ rotate: 30deg;
+         left: 10px;
+        color: aqua;
+    }
+
+    80%{
+        rotate: 55deg;
+        right: 50px;
+        color: rgb(0, 255, 4);
+        box-shadow: 5px 5px 10px rgb(20, 220, 53);
+    }
+
+    100%{
+        box-shadow:  10px 5px 50px crimson;
+        bottom: 60px;
+        color: blue;
+    }
+
+}
